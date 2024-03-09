@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>Floripa Mais Tec - Semana 8</title>
+</head>
+
+<body>
+  <div class="flex-container">
+    <h1 class="h1">Lista de Tarefas</h1>
+
+    <div class="inputAtividade">
+      <input type="text" class="txtAtividade" placeholder="Digite a atividade">
+    </div>
+
+    <div class="tbAtividades">
+      <table border="1" id="atividades">
+        <thead>
+          <tr>
+            <td id="idAtividade">Id</td>
+            <td id="DescricaoAtividade">Atividade</td>
+            <td id="acoes">Ações</td>
+          </tr>
+        </thead>
+        <tbody id="listAtividades">
+
+        </tbody>
+
+      </table>
+    </div>
+
+    <div class="button">
+      <button id="btn-adicionar" onclick="adicionarItem()">Adicionar</button>
+    </div>
+
+  </div>
+
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>
