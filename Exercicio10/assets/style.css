@@ -1,0 +1,52 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 30px;
+  height: 100vh;
+}
+
+.h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputAtividade{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.tbAtividades{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+#idAtividade{
+  display: flex;
+  justify-content: center;
+  width: 30px;
+}
+
+#DescricaoAtividade{
+  width: 300px;
+}
+
+#acoes {
+  display: flex;
+  justify-content: center;
+}
+
